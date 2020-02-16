@@ -16,7 +16,7 @@ public class CheckElements {
         firstList.add(3);
 
         secondList.add(5);
-        secondList.add(1);
+        secondList.add(4);
         secondList.add(3);
         secondList.add(55);
         secondList.add(9);

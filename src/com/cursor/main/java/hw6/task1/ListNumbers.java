@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListNumbers {
-
+    final int DIVIDER_VALUE =3;
     List<Integer> listOfIntegers = new ArrayList<>();
 
     public void addNumbers() {
@@ -19,7 +19,7 @@ public class ListNumbers {
     }
 
     public void removeNumbersDivisibleByThree() {
-        listOfIntegers.removeIf(integer -> integer % 3 == 0);
+        listOfIntegers.removeIf(integer -> integer % DIVIDER_VALUE == 0);
         System.out.println("List after removing elements that are divisible by 3: " + listOfIntegers);
     }
 }
